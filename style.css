@@ -67,11 +67,9 @@ line-height: normal;
 }
 
 #travel-list li {
-  counter-increment: list-counter; 
-  margin-bottom: 30px;
+
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
+  
 
 }
 
@@ -85,6 +83,7 @@ line-height: normal;
 
 .cardtravel {
   text-align: left; 
+  padding-top: 40px;
 }
 
 .title {
@@ -93,16 +92,19 @@ line-height: normal;
 }
 
 .custom-list {
-  list-style-type: disc; 
-  padding-left: 15px; 
+  list-style-type: disc;
+  font-size: 18px;
+  padding-left: 25px; 
+  margin-top: 5px; 
   color: #0C51A7;
-  };
-
+}
 
 .custom-list li {
   font-weight: bold; 
-  font-size: 16px; 
+  font-size: 16px;
+  margin-bottom: 5px; 
 }
+
 
 .casais {
   color: purple; 
@@ -116,3 +118,10 @@ line-height: normal;
   color: #D87C31; 
 }
 
+
+.footer {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+  
+}
